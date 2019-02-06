@@ -44,12 +44,12 @@ RaboBank Assignment for back end software development
   
 ## Running the application
 
-   To test the application a REST client like POSTMAN is required.
+   * To test the application a REST client like POSTMAN is required.
    
-   For uploading a single file choose POST and the following url http://localhost:8080/uploadfile
-   For choosing the payload choose form-data option in POSTMAN - give the key as 'file' and 
-   click the 'choose files' button to select a single file.
-   To select multiple files give url as http://localhost:8080/uploadMultipleFiles the key as 'files'
+   * For uploading a single file choose POST and the following url http://localhost:8080/uploadfile
+   * For choosing the payload choose form-data option in POSTMAN - give the key as 'file' and 
+     click the 'choose files' button to select a single file and sent.
+   * To select multiple files give url as http://localhost:8080/uploadMultipleFiles the key as 'files'
       
   
   
