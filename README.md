@@ -49,7 +49,26 @@ RaboBank Assignment for back end software development
    * For uploading a single file choose POST and the following url http://localhost:8080/uploadfile
    * For choosing the payload choose form-data option in POSTMAN - give the key as 'file' and 
      click the 'choose files' button to select a single file and sent.
-   * To select multiple files give url as http://localhost:8080/uploadMultipleFiles the key as 'files'
+   * To select multiple files give url as http://localhost:8080/uploadMultipleFiles the key as 'files'   
+   * Sample screen shots are attached for refernce.
+   * The output response is as follows which shows the violations
+      {
+        "statementErrorList": [
+            {
+                "referenceNumber": "112806",
+                "statementDescription": "Clothes for Richard de Vries",
+                "errorMessage": "referenceNumber already processed"
+            },
+            {
+                "referenceNumber": "112806",
+                "statementDescription": "Tickets from Richard Bakker",
+                "errorMessage": "referenceNumber already processed"
+            }
+        ],
+        "statementsProcessed": 10,
+        "violationsFound": 2,
+        "fileName": "records.csv"
+    }
       
   
   
