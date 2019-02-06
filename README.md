@@ -52,23 +52,23 @@ RaboBank Assignment for back end software development
    * To select multiple files give url as http://localhost:8080/uploadMultipleFiles the key as 'files'   
    * Sample screen shots are attached for refernce.
    * The output response is as follows which shows the violations
-      {
-        "statementErrorList": [
-            {
-                "referenceNumber": "112806",
-                "statementDescription": "Clothes for Richard de Vries",
-                "errorMessage": "referenceNumber already processed"
-            },
-            {
-                "referenceNumber": "112806",
-                "statementDescription": "Tickets from Richard Bakker",
-                "errorMessage": "referenceNumber already processed"
-            }
-        ],
-        "statementsProcessed": 10,
-        "violationsFound": 2,
-        "fileName": "records.csv"
-    }
+   *  {
+   *     "statementErrorList": [
+   *         {
+   *             "referenceNumber": "112806",
+   *             "statementDescription": "Clothes for Richard de Vries",
+   *             "errorMessage": "referenceNumber already processed"
+   *         },
+   *         {
+   *             "referenceNumber": "112806",
+   *             "statementDescription": "Tickets from Richard Bakker",
+   *             "errorMessage": "referenceNumber already processed"
+   *         }
+   *     ],
+   *     "statementsProcessed": 10,
+   *     "violationsFound": 2,
+   *     "fileName": "records.csv"
+   * }
       
   
   
