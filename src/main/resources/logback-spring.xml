@@ -6,7 +6,7 @@
     <springProperty scope="context" name="springAppName" source="spring.application.name" />
     <springProperty scope="context" name="springAppIndex" source="spring.application.index" />
     
-    <property name="LOG_FILE" value="rabobank.log" />
+    <property name="LOG_FILE" value="logs/rabobank.log" />
 
 
 	<!-- Appender to log to console -->

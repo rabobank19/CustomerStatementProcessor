@@ -162,14 +162,14 @@
 					<schemaDirectory>src/main/resources</schemaDirectory>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!-- plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<version>3.1.0</version>
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.rabobank.App</mainClass>
+							<mainClass>com.rabobank.CustomerStatementProcessor</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
@@ -185,7 +185,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin -->
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
