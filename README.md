@@ -5,7 +5,7 @@ RaboBank Assignment for back end software development
 
   * Clone this repository
   * Run `mvn clean package`
-  * Run `java -jar target/CustomerStatementProcessor-0.0.1-SNAPSHOT.jar` or using maven command
+  * Run using maven command - 
     mvn spring-boot:run on command prompt where the pom.xml is located
   * The log file for the application will be generated under "logs/rabobank.log" directory where the project is executed.
 
