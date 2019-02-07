@@ -1,0 +1,36 @@
+[
+    {
+        "statementErrorList": [
+            {
+                "referenceNumber": "112806",
+                "statementDescription": "Clothes for Richard de Vries",
+                "errorMessage": "referenceNumber already processed"
+            },
+            {
+                "referenceNumber": "112806",
+                "statementDescription": "Tickets from Richard Bakker",
+                "errorMessage": "referenceNumber already processed"
+            }
+        ],
+        "statementsProcessed": 10,
+        "violationsFound": 2,
+        "fileName": "records.csv"
+    },
+    {
+        "statementErrorList": [
+            {
+                "referenceNumber": "167875",
+                "statementDescription": "Tickets from Erik de Vries",
+                "errorMessage": "endBalance expected to be 4490.00"
+            },
+            {
+                "referenceNumber": "165102",
+                "statementDescription": "Tickets for Rik Theuß",
+                "errorMessage": "endBalance expected to be 4980.00"
+            }
+        ],
+        "statementsProcessed": 10,
+        "violationsFound": 2,
+        "fileName": "records.xml"
+    }
+]

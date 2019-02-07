@@ -1,0 +1,17 @@
+{
+    "statementErrorList": [
+        {
+            "referenceNumber": "112806",
+            "statementDescription": "Clothes for Richard de Vries",
+            "errorMessage": "referenceNumber already processed"
+        },
+        {
+            "referenceNumber": "112806",
+            "statementDescription": "Tickets from Richard Bakker",
+            "errorMessage": "referenceNumber already processed"
+        }
+    ],
+    "statementsProcessed": 10,
+    "violationsFound": 2,
+    "fileName": "records.csv"
+}
