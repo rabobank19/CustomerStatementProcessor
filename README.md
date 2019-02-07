@@ -51,6 +51,7 @@ RaboBank Assignment for back end software development
      click the 'choose files' button to select a single file and sent.
    * To select multiple files give url as http://localhost:8080/uploadMultipleFiles the key as 'files'   
    * Sample screen shots are attached for refernce.
+   * The log file for the application could be found at logs/rabobank.log under root context directory.
    * The output response is as follows which shows the violations
      {
 	 
